@@ -7,7 +7,7 @@ config-version: 1
 
 # This setting configures which "profile" dbt uses for this project. 
 # In dbt Cloud IDE, this field is unused.
-profile: 'grupo_f'
+profile: 'Analytics'
 
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
