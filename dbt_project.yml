@@ -3,7 +3,7 @@
 # name or the intended use of these models
 name: 'grupo_f'
 version: '1.0.0'
-config-version: 1
+config-version: 2
 
 # This setting configures which "profile" dbt uses for this project. 
 # In dbt Cloud IDE, this field is unused.
