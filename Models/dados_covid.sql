@@ -1,21 +1,13 @@
-with DADOS_COVID as (
+{{
+  config(
+    materialized='view'
+  )
+}}
 
-select 
-	_ROW NUMBER,
-	RACA_COR,
-	EVOLUCAO,
-	CLASSIFICACAO_FINAL,
-	SISTEMA,
-	DT_INICIO_SINTOMAS,
-	FAIXA_ETARIA,
-	AP_RESIDENCIA_ESTADIA,
-	DT_EVOLUCAO,
-	DATA_ATUALIZACAO,
-	DT_NOTIFIC,
-	SEXO,
-	BAIRRO_RESID_ESTADIA,
-	_FIVETRAN_SYNCED,
-	from PC_FIVETRAN_DB.GOOGLE_SHEETS.DADOS_COVID 
+with dados_covid as (
+
+    select
+        _row as dados_covid
+        ...
+
 )
-
-select * from DADOS_COVID
