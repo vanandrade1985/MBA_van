@@ -1,57 +1,53 @@
+# Rename this project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
 name: 'Grupo_F'
 version: '1.0.0'
 config-version: 2
+
+# This setting configures which "profile" dbt uses for this project. 
+# In dbt Cloud IDE, this field is unused.
 profile: 'Analytics'
 
+# These configurations specify where dbt should look for different types of files.
+# The `source-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You don't need to change these for this project.
 source-paths: ["models"]
 analysis-paths: ["analysis"]
 test-paths: ["tests"]
 data-paths: ["data"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
-asset-paths: ["assets"]
-seed-paths: ["seeds"]
-docs-paths: ["docs"]
 
-target-path: "target"  
-log-path: dbt_logs
-
-
-packages-install-path: packages
-
-clean-targets:        
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
     - "target"
-    - "dbt_packages"
+    - "dbt_modules"
 
-dispatch:
-  - macro_namespace: dbt_utils
-    search_order: ['spark_utils', 'dbt_utils']
+# on-run-start and on-run-end are SQL statement(s) or macros that run at the end of 
+# dbt run/dbt/seed/dbt snapshot commands. 
+# Full documentation: https://docs.getdbt.com/reference/project-configs/on-run-start-on-run-end
+on-run-end:
+  - "{{ grant_all_on_schemas(schemas, 'public') }}"
 
-macro-paths: ["custom_macros"]
-query-comment: string
-
-quoting:
-  database: true | false
-  schema: true | false
-  identifier: true | false
-
-models:
-  <model-configs>
-
+# Configuring seeds 
+# Full documentation: https://docs.getdbt.com/docs/building-a-dbt-project/seeds
 seeds:
-  <seed-configs>
+# This declares that column names in the seed file will not be quoted when the table is created.
+  +quote_columns: false
 
-snapshots:
-  <snapshot-configs>
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
 
-sources:
-  <source-configs>
-  
-tests:
-  <test-configs>
-
-vars:
-  <variables>
+# In this config, we tell dbt how to build the models, where to build them, which warehouse 
+# to use, and what query tag to provide on the snowflake site. 
+# These settings can be overridden in the individual model files
+# using the `{{ config(...) }}` macro. 
+models:
+  dados_covid:
+    +materialized: table
+    example:
+      +materialized: view 
 
 on-run-start: sql-statement | [sql-statement]
 on-run-end: sql-statement | [sql-statement]
