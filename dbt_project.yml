@@ -1,7 +1,7 @@
 # Rename this project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'grupo_f'
+name: 'Grupo_J'
 version: '1.0.0'
 config-version: 2
 
@@ -68,4 +68,4 @@ models:
           +materialized: table
           # This defaults every model in the marts/core directory to be materialized as a table in Snowflake
           query_tag: dbt_marts   
-          # This applies a query tag named `dbt_marts` to any related queries in Snowflake's Query_History 
+          # This applies a query tag named `dbt_marts` to any related queries in Snowflake's Query_History       
