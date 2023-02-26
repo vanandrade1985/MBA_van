@@ -742,3 +742,225 @@ There are 3 unused configuration paths:
 2023-02-26 14:04:14.841794 (Thread-219): handling status request
 2023-02-26 14:04:14.842284 (Thread-219): 14:04:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1332a1d070>]}
 2023-02-26 14:04:14.842785 (Thread-219): sending response (<Response 2080 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:04:20.665861 (Thread-220): 14:04:20  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:04:20.767217 (Thread-220): 14:04:20  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:04:20.767467 (Thread-220): 14:04:20  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:04:20.767886 (Thread-220): 14:04:20  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:04:20.773468 (Thread-220): 14:04:20  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f131018d9a0>]}
+2023-02-26 14:04:21.801234 (Thread-221): handling status request
+2023-02-26 14:04:21.801728 (Thread-221): 14:04:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f131017bd00>]}
+2023-02-26 14:04:21.802220 (Thread-221): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:04:33.364268 (Thread-222): handling status request
+2023-02-26 14:04:33.364843 (Thread-222): 14:04:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f131017bc70>]}
+2023-02-26 14:04:33.365373 (Thread-222): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:04:35.049810 (Thread-223): handling status request
+2023-02-26 14:04:35.050301 (Thread-223): 14:04:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f131017b400>]}
+2023-02-26 14:04:35.050796 (Thread-223): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:04:35.222184 (Thread-224): handling ps request
+2023-02-26 14:04:35.222683 (Thread-224): 14:04:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f131017bac0>]}
+2023-02-26 14:04:35.223436 (Thread-224): sending response (<Response 4592 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:04:35.235318 (Thread-225): handling ps request
+2023-02-26 14:04:35.235681 (Thread-225): 14:04:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f131017b9a0>]}
+2023-02-26 14:04:35.236349 (Thread-225): sending response (<Response 4592 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:04:36.252616 (Thread-226): handling status request
+2023-02-26 14:04:36.253128 (Thread-226): 14:04:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f131017b8e0>]}
+2023-02-26 14:04:36.253619 (Thread-226): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:04:47.588669 (Thread-227): 14:04:47  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:04:47.695581 (Thread-227): 14:04:47  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:04:47.695992 (Thread-227): 14:04:47  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:04:47.696722 (Thread-227): 14:04:47  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:04:47.704433 (Thread-227): 14:04:47  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13100f46a0>]}
+2023-02-26 14:04:48.529495 (Thread-228): handling status request
+2023-02-26 14:04:48.529985 (Thread-228): 14:04:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1310178a30>]}
+2023-02-26 14:04:48.530478 (Thread-228): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:04:54.495606 (Thread-229): 14:04:54  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:04:54.602990 (Thread-229): 14:04:54  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:04:54.603254 (Thread-229): 14:04:54  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:04:54.603707 (Thread-229): 14:04:54  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:04:54.609384 (Thread-229): 14:04:54  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101f59d0>]}
+2023-02-26 14:04:55.140503 (Thread-230): handling status request
+2023-02-26 14:04:55.141048 (Thread-230): 14:04:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13100e43d0>]}
+2023-02-26 14:04:55.141561 (Thread-230): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:05:01.147236 (Thread-231): 14:05:01  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:05:01.256802 (Thread-231): 14:05:01  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:05:01.257052 (Thread-231): 14:05:01  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:05:01.257472 (Thread-231): 14:05:01  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:05:01.262894 (Thread-231): 14:05:01  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101f0eb0>]}
+2023-02-26 14:05:02.283138 (Thread-232): handling status request
+2023-02-26 14:05:02.283701 (Thread-232): 14:05:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1320028280>]}
+2023-02-26 14:05:02.284285 (Thread-232): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:05:07.048692 (Thread-233): 14:05:07  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:05:07.157202 (Thread-233): 14:05:07  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:05:07.157433 (Thread-233): 14:05:07  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:05:07.157823 (Thread-233): 14:05:07  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:05:07.162972 (Thread-233): 14:05:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101e8af0>]}
+2023-02-26 14:05:07.651856 (Thread-234): handling status request
+2023-02-26 14:05:07.652343 (Thread-234): 14:05:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101f4ee0>]}
+2023-02-26 14:05:07.652860 (Thread-234): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:05:17.493430 (Thread-235): 14:05:17  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:05:17.603589 (Thread-235): 14:05:17  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:05:17.603827 (Thread-235): 14:05:17  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:05:17.604224 (Thread-235): 14:05:17  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:05:17.609399 (Thread-235): 14:05:17  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101d71c0>]}
+2023-02-26 14:05:18.048002 (Thread-236): handling status request
+2023-02-26 14:05:18.048470 (Thread-236): 14:05:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13100f7910>]}
+2023-02-26 14:05:18.048996 (Thread-236): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:05:27.538888 (Thread-237): 14:05:27  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:05:27.853773 (Thread-237): 14:05:27  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:05:27.854099 (Thread-237): 14:05:27  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:05:27.854547 (Thread-237): 14:05:27  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:05:27.860243 (Thread-237): 14:05:27  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1344308eb0>]}
+2023-02-26 14:05:28.623976 (Thread-238): handling status request
+2023-02-26 14:05:28.624466 (Thread-238): 14:05:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101e5d60>]}
+2023-02-26 14:05:28.625002 (Thread-238): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:05:58.687184 (Thread-239): handling status request
+2023-02-26 14:05:58.687687 (Thread-239): 14:05:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101e5730>]}
+2023-02-26 14:05:58.688185 (Thread-239): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:05:58.749127 (Thread-240): handling cli_args request
+2023-02-26 14:05:58.749628 (Thread-240): 14:05:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101e5430>]}
+2023-02-26 14:05:58.759690 (Thread-240): sending response (<Response 588 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:05:59.403851 (Thread-241): handling ps request
+2023-02-26 14:05:59.404351 (Thread-241): 14:05:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1320044820>]}
+2023-02-26 14:05:59.405168 (Thread-241): sending response (<Response 5009 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:05:59.472090 (Thread-242): handling poll request
+2023-02-26 14:05:59.472454 (Thread-242): 14:05:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13200449d0>]}
+2023-02-26 14:05:59.472945 (Thread-242): sending response (<Response 341 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:05:59.952637 (Thread-243): handling status request
+2023-02-26 14:05:59.953094 (Thread-243): 14:05:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1320044550>]}
+2023-02-26 14:05:59.953570 (Thread-243): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:00.029147 (Thread-244): handling ps request
+2023-02-26 14:06:00.029577 (Thread-244): 14:06:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1320044c10>]}
+2023-02-26 14:06:00.030322 (Thread-244): sending response (<Response 5009 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:00.797693 (Thread-245): handling poll request
+2023-02-26 14:06:00.798175 (Thread-245): 14:06:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101e59d0>]}
+2023-02-26 14:06:00.818870 (Thread-245): sending response (<Response 382 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:24.520680 (Thread-246): handling status request
+2023-02-26 14:06:24.521203 (Thread-246): 14:06:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101e54c0>]}
+2023-02-26 14:06:24.521710 (Thread-246): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:40.800426 (Thread-247): 14:06:40  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:06:40.942941 (Thread-247): 14:06:40  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:06:40.943181 (Thread-247): 14:06:40  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:06:40.943584 (Thread-247): 14:06:40  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:06:40.948916 (Thread-247): 14:06:40  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101052b0>]}
+2023-02-26 14:06:41.776415 (Thread-248): handling status request
+2023-02-26 14:06:41.776943 (Thread-248): 14:06:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f132004c250>]}
+2023-02-26 14:06:41.777441 (Thread-248): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:48.338834 (Thread-249): 14:06:48  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:06:48.448244 (Thread-249): 14:06:48  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:06:48.448490 (Thread-249): 14:06:48  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:06:48.448992 (Thread-249): 14:06:48  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:06:48.454597 (Thread-249): 14:06:48  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1310071f10>]}
+2023-02-26 14:06:48.950107 (Thread-250): handling status request
+2023-02-26 14:06:48.950600 (Thread-250): 14:06:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1310141400>]}
+2023-02-26 14:06:48.951110 (Thread-250): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:49.737669 (Thread-251): 14:06:49  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:06:49.848734 (Thread-251): 14:06:49  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:06:49.848978 (Thread-251): 14:06:49  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:06:49.849432 (Thread-251): 14:06:49  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:06:49.854924 (Thread-251): 14:06:49  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec24f4f0>]}
+2023-02-26 14:06:50.193121 (Thread-252): handling status request
+2023-02-26 14:06:50.193602 (Thread-252): 14:06:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f132003d820>]}
+2023-02-26 14:06:50.194115 (Thread-252): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:51.745220 (Thread-253): 14:06:51  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:06:51.852617 (Thread-253): 14:06:51  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:06:51.852886 (Thread-253): 14:06:51  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:06:51.853331 (Thread-253): 14:06:51  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:06:51.859038 (Thread-253): 14:06:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec1f1f40>]}
+2023-02-26 14:06:52.215927 (Thread-254): handling status request
+2023-02-26 14:06:52.216388 (Thread-254): 14:06:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec230550>]}
+2023-02-26 14:06:52.216901 (Thread-254): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:53.091901 (Thread-255): 14:06:53  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:06:53.194502 (Thread-255): 14:06:53  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:06:53.194755 (Thread-255): 14:06:53  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:06:53.195159 (Thread-255): 14:06:53  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:06:53.200598 (Thread-255): 14:06:53  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec19a370>]}
+2023-02-26 14:06:53.607377 (Thread-256): handling status request
+2023-02-26 14:06:53.607858 (Thread-256): 14:06:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec252f70>]}
+2023-02-26 14:06:53.608354 (Thread-256): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:54.507604 (Thread-257): 14:06:54  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:06:54.606580 (Thread-257): 14:06:54  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:06:54.606840 (Thread-257): 14:06:54  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:06:54.607265 (Thread-257): 14:06:54  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:06:54.613882 (Thread-257): 14:06:54  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec13eee0>]}
+2023-02-26 14:06:55.027682 (Thread-258): handling status request
+2023-02-26 14:06:55.036355 (Thread-258): 14:06:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec1e49a0>]}
+2023-02-26 14:06:55.036894 (Thread-258): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:55.976680 (Thread-259): 14:06:55  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:06:55.981121 (Thread-259): 14:06:55  Unable to do partial parsing because saved manifest not found. Starting full parse.
+2023-02-26 14:06:55.981470 (Thread-259): 14:06:55  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f132003d820>]}
+2023-02-26 14:06:56.497609 (Thread-260): handling status request
+2023-02-26 14:06:56.518474 (Thread-260): 14:06:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec17b2b0>]}
+2023-02-26 14:06:56.524086 (Thread-260): sending response (<Response 180 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:56.985464 (Thread-259): 14:06:56  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:06:56.990918 (Thread-259): 14:06:56  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec120700>]}
+2023-02-26 14:06:57.497878 (Thread-261): handling status request
+2023-02-26 14:06:57.498375 (Thread-261): 14:06:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec19ca30>]}
+2023-02-26 14:06:57.498877 (Thread-261): sending response (<Response 2220 bytes [200 OK]>) to 10.0.176.165
+2023-02-26 14:06:57.778950 (Thread-262): 14:06:57  checksum: 53031c19d544029d453be44137bc5445d5348f5f0d9b4051ba3968e210991a6d, vars: {}, profile: user, target: None, version: 1.4.3
+2023-02-26 14:06:57.877684 (Thread-262): 14:06:57  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-02-26 14:06:57.877943 (Thread-262): 14:06:57  Partial parsing enabled, no changes found, skipping parsing
+2023-02-26 14:06:57.878358 (Thread-262): 14:06:57  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.Grupo_F.marts.core
+- models.Grupo_F.staging
+- seeds
+2023-02-26 14:06:57.883818 (Thread-262): 14:06:57  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13101c4b80>]}
+2023-02-26 14:06:58.287739 (Thread-263): handling status request
+2023-02-26 14:06:58.288292 (Thread-263): 14:06:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '02a3f9ec-d1e6-4a61-9dad-77e0e3e9305c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12ec0bc280>]}
+2023-02-26 14:06:58.288822 (Thread-263): sending response (<Response 2061 bytes [200 OK]>) to 10.0.176.165
